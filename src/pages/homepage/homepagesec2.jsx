@@ -37,7 +37,7 @@ const Homepagesec2 = () => {
                 <div className='bg-cover ' style={{ backgroundImage: `url(${Img4})`, }}>
                     <div className='flex justify-center pt-16'>
                         <div className='rounded-xl  min-w-[600px] px-12 py-4 pb-12' style={{ background: gradient }}>
-                            <h1 className='text-center text-white mt-12'>Make song, album or artist pages in one clink></h1>
+                            <h1 className='text-center text-white mt-12'>Make song, album or artist pages in one clink</h1>
                             <div className='flex justify-center'>
                                 <button className='py-2 px-5 rounded bg-[#07162D] text-white mt-4'>Make a page</button>
                             </div>
