@@ -16,6 +16,7 @@ import Img14 from '../../assets/Vector4.png'
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselCard from '../../components/carouselcard/carouselCard'
+import Homepagesec2 from './homepagesec2'
 const Homepage = () => {
   const responsive = {
     desktop: {
@@ -125,6 +126,7 @@ const Homepage = () => {
          
         </div>
       </div>
+      <Homepagesec2/>
     </>
   )
 }
