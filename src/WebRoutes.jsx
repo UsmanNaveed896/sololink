@@ -13,7 +13,7 @@ const WebRoutes = () => {
                 <Route exact path='/makemusiclink' element={<MakeMusicLink />} />
                 <Route exact path='/login' element={<Login />} />
                 <Route exact path='/signup' element={<SignUp />} />
-                <Route exact path='/forgetpasswors' element={<ForgetPasssword />} />
+                <Route exact path='/forgetpassword' element={<ForgetPasssword />} />
             </Routes>
         </Router>
     );
