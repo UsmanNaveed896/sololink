@@ -16,7 +16,15 @@ import Img14 from '../../assets/Vector4.png'
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CarouselCard from '../../components/carouselcard/carouselCard'
+import Homepagesec2 from './homepagesec2'
+import Footer from '../footer'
+import { useNavigate } from 'react-router-dom';
 const Homepage = () => {
+  const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/makemusiclink');
+    };
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -102,7 +110,7 @@ const Homepage = () => {
             <div className='rounded-xl  min-w-[600px] px-12 py-4 pb-12' style={{ background: gradient }}>
               <h1 className='text-center text-white mt-12'>Make unlimited for free.<span className='font-bold'>No login needed</span></h1>
               <div className='flex justify-center'>
-                <button className='py-2 px-5 rounded bg-[#07162D] text-white mt-4'>Make a music link</button>
+                <button className='py-2 px-5 rounded bg-[#07162D] text-white mt-4' onClick={handleClick}>Make a music link</button>
               </div>
             </div>
           </div>
@@ -125,6 +133,8 @@ const Homepage = () => {
          
         </div>
       </div>
+      <Homepagesec2/>
+      <Footer/>
     </>
   )
 }
