@@ -9,9 +9,6 @@ import Img7 from '../../assets/Vector6.png'
 import Img8 from '../../assets/ana.png'
 import Img9 from '../../assets/Group112.png'
 
-
-
-
 const Homepagesec2 = () => {
     const gradient = 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,109,151,1) 0%, rgba(180,103,210,1) 100%)'
 
@@ -37,7 +34,7 @@ const Homepagesec2 = () => {
                 <div className='bg-cover ' style={{ backgroundImage: `url(${Img4})`, }}>
                     <div className='flex justify-center pt-16'>
                         <div className='rounded-xl  min-w-[600px] px-12 py-4 pb-12' style={{ background: gradient }}>
-                            <h1 className='text-center text-white mt-12'>Make song, album or artist pages in one clink></h1>
+                            <h1 className='text-center text-white mt-12'>Make song, album or artist pages in one clink</h1>
                             <div className='flex justify-center'>
                                 <button className='py-2 px-5 rounded bg-[#07162D] text-white mt-4'>Make a page</button>
                             </div>
