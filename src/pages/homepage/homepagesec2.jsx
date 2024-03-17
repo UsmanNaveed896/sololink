@@ -14,7 +14,7 @@ const Homepagesec2 = () => {
 
     return (
         <>
-            <div className='bg-cover relative' style={{ backgroundImage: `url(${Img2})`, }}>
+            <div className='bg-cover relative pb-32' style={{ backgroundImage: `url(${Img2})`, }}>
                 <div className='bg-cover relative' style={{ backgroundImage: `url(${Img1})`, }}>
 
                     <div className='pt-32'>
