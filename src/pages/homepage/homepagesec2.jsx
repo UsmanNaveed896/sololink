@@ -9,15 +9,12 @@ import Img7 from '../../assets/Vector6.png'
 import Img8 from '../../assets/ana.png'
 import Img9 from '../../assets/Group112.png'
 
-
-
-
 const Homepagesec2 = () => {
     const gradient = 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,109,151,1) 0%, rgba(180,103,210,1) 100%)'
 
     return (
         <>
-            <div className='bg-cover relative' style={{ backgroundImage: `url(${Img2})`, }}>
+            <div className='bg-cover relative pb-32' style={{ backgroundImage: `url(${Img2})`, }}>
                 <div className='bg-cover relative' style={{ backgroundImage: `url(${Img1})`, }}>
 
                     <div className='pt-32'>

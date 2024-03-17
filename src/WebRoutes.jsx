@@ -5,8 +5,10 @@ import MakeMusicLink from './pages/MakeMusicLink'
 import Login from './pages/auth/login'
 import SignUp from './pages/auth/signup'
 import ForgetPasssword from './pages/auth/forgetPassword'
+import Footer from './pages/footer';
 const WebRoutes = () => {
     return (
+        <>
         <Router>
             <Routes>
                 <Route exact path='/' element={<Homepage />} />
@@ -16,6 +18,8 @@ const WebRoutes = () => {
                 <Route exact path='/forgetpassword' element={<ForgetPasssword />} />
             </Routes>
         </Router>
+         <Footer/>
+         </>
     );
 };
 
