@@ -18,6 +18,7 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselCard from '../../components/carouselcard/carouselCard'
 import Homepagesec2 from './homepagesec2'
 import Footer from '../footer'
+import YourComponent from '../musiclink'
 import { useNavigate } from 'react-router-dom';
 const Homepage = () => {
   const navigate = useNavigate();
@@ -48,6 +49,7 @@ const Homepage = () => {
       <div className='home-page font-roboto bg-cover bg-no-repeat' style={{ backgroundImage: `url(${Img})`, }}>
         <div className='px-12 py-3 '>
           <div className='flex justify-between items-center'>
+            <YourComponent/>
             <div>
               <img src={Img1} alt='menu' />
             </div>
