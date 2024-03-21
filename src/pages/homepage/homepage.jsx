@@ -49,7 +49,7 @@ const Homepage = () => {
       <div className='home-page font-roboto bg-cover bg-no-repeat' style={{ backgroundImage: `url(${Img})`, }}>
         <div className='px-12 py-3 '>
           <div className='flex justify-between items-center'>
-            <YourComponent/>
+            {/* <YourComponent/> */}
             <div>
               <img src={Img1} alt='menu' />
             </div>
