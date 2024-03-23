@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Img from '../../assets/Group7.png'
 import Img1 from '../../assets/menu.png'
 import Img2 from '../../assets/SoLoLink 1.png'
@@ -18,14 +18,15 @@ import "react-multi-carousel/lib/styles.css";
 import CarouselCard from '../../components/carouselcard/carouselCard'
 import Homepagesec2 from './homepagesec2'
 import Footer from '../footer'
-import YourComponent from '../musiclink'
 import { useNavigate } from 'react-router-dom';
+
 const Homepage = () => {
   const navigate = useNavigate();
 
     const handleClick = () => {
         navigate('/makemusiclink');
     };
+
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -49,7 +50,6 @@ const Homepage = () => {
       <div className='home-page font-roboto bg-cover bg-no-repeat' style={{ backgroundImage: `url(${Img})`, }}>
         <div className='px-12 py-3 '>
           <div className='flex justify-between items-center'>
-            {/* <YourComponent/> */}
             <div>
               <img src={Img1} alt='menu' />
             </div>
@@ -112,7 +112,8 @@ const Homepage = () => {
             <div className='rounded-xl  min-w-[600px] px-12 py-4 pb-12' style={{ background: gradient }}>
               <h1 className='text-center text-white mt-12'>Make unlimited for free.<span className='font-bold'>No login needed</span></h1>
               <div className='flex justify-center'>
-                <button className='py-2 px-5 rounded bg-[#07162D] text-white mt-4' onClick={handleClick}>Make a music link</button>
+                <button className='py-2 px-5 rounded bg-[#07162D] text-white mt-4 hover:font-bold' onClick={handleClick}>Make a music link</button>
+
               </div>
             </div>
           </div>
